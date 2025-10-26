@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Foodie Express</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+  <h1>🍽️ Foodie Express</h1>
+  <input type="text" id="searchBox" placeholder="Search dishes..." onkeyup="filterDishes()" />
+</header>
+
+  <main class="menu">
+    <div class="dish-card">
+      <img src="image/pizza.jpg" alt="Pizza" />
+      <h2>PIZZA</h2>
+      <p>₹199</p>
+      <button onclick="addToCart('PIZZA', 250, 'image/pizza.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="dish-card">
+      <img src="./image/burger.jpg" alt="Burger" />
+      <h2>BURGER</h2>
+      <p>₹149</p>
+      <button onclick="addToCart('BURGER', 180, 'image/burger.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="dish-card">
+      <img src="./image/chicken biriyani.jpg" alt="Biryani" />
+      <h2>CHICKEN BIRIYANI</h2>
+      <p>₹180</p>
+      <button onclick="addToCart('CHICKEN BIRIYANI', 300, 'image/chicken biriyani.jpg')">Add to Cart</button>
+    </div>
+     <div class="dish-card">
+      <img src="image/mutton.webp" alt="Pizza" />
+      <h2>MUTTON BIRIYANI</h2>
+      <p>₹250</p>
+      <button onclick="addToCart('MUTTON BIRIYANI', 250, 'image/mutton.webp')">Add to Cart</button>
+    </div>
+
+     <div class="dish-card">
+      <img src="image/idiyaapam.webp" alt="Pizza" />
+      <h2>IDIYAPPAM</h2>
+      <p>₹49</p>
+      <button onclick="addToCart('IDIYAPPAM', 250, 'image/idiyaapam.webp')">Add to Cart</button>
+    </div>
+
+     <div class="dish-card">
+      <img src="image/idli.jpg" alt="Pizza" />
+      <h2>IDLI</h2>
+      <p>₹30</p>
+      <button onclick="addToCart('IDLI', 250, 'image/idli.jpg')">Add to Cart</button>
+    </div>
+
+     <div class="dish-card">
+      <img src="image/dosa.jpg" alt="Pizza" />
+      <h2>DOSAI</h2>
+      <p>₹49</p>
+      <button onclick="addToCart('DOSAI', 250, 'image/dosa.jpg')">Add to Cart</button>
+    </div>
+
+     <div class="dish-card">
+      <img src="image/porata.jpg" alt="Pizza" />
+      <h2>PARATA</h2>
+      <p>₹40</p>
+      <button onclick="addToCart('PARATA', 250, 'image/porata.jpg')">Add to Cart</button>
+    </div>
+
+     <div class="dish-card">
+      <img src="image/poori.jpg" alt="Pizza" />
+      <h2>POORI</h2>
+      <p>₹30</p>
+      <button onclick="addToCart('POORI', 250, 'image/poori.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="dish-card">
+      <img src="image/pongal.jpg" alt="Pizza" />
+      <h2>PONGAL</h2>
+      <p>₹79</p>
+      <button onclick="addToCart('PONGAL', 250, 'image/pongal.jpg')">Add to Cart</button>
+    </div>
+
+    <div class="dish-card">
+      <img src="image/chapathi.jpeg" alt="Pizza" />
+      <h2>CHAPATHI</h2>
+      <p>₹40</p>
+      <button onclick="addToCart('CHAPATHI', 250, 'image/chapathi.jpeg')">Add to Cart</button>
+    </div>
+
+    <div class="dish-card">
+      <img src="image/mojito.jpg" alt="Pizza" />
+      <h2>MOJITO</h2>
+      <p>₹50</p>
+      <button onclick="addToCart('MOJITO', 250, 'image/mojito.jpg')">Add to Cart</button>
+    </div>
+  </main>
+
+  <footer>
+    <a href="page2.html" class="order-btn">🛒 Go to Cart</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
